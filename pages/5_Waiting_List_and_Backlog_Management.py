@@ -30,5 +30,5 @@ with st.form("backlog_management"):
         st.subheader("Backlog Projection Results")
         st.write(f"Expected Waiting List Size at End of Year: {projected_waiting_list_size:.0f} patients")
         st.write(f"Expected Backlog Size at End of Year: {projected_backlog_size:.0f} patients")
-else:
-    st.error("Please input data and configure variables first.")
+    else:
+        st.error("Please input data and configure variables first.")
